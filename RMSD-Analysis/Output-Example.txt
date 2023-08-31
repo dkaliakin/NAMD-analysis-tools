@@ -1,0 +1,4 @@
+Smallest RMSD 1: 0.160152915663775 (avg.mu1_vel)
+Smallest inverted RMSD 1: 0.17551865738853883 (avg.gamma1_vel)
+Smallest RMSD 2: 0.21166953062369745 (avg.gamma3a_vel)
+Smallest inverted RMSD 2: 0.21974747960381705 (avg.eta1a_vel)
