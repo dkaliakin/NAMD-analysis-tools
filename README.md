@@ -3,7 +3,7 @@ _Python scripts for identification of coordinates defining reactivity of nonadia
 
 This repository contains two complimentary tools, namely **"Cluster-Analysis"** and **"RMSD-Analysis"**, which are located in two corresponding folders.
 
-**Cluster-Analysis**
+#Cluster-Analysis
 
 _Cluster-analysis.py_ allows you to quickly establish whether the surface hop points along particular coordinate (in our example we test various torsion angles) and the velocity along corresponding coordinate has a clear separation in group of productive and unproductive trajectories. In our example cluster approach identifies that surface hop points are clearly separate in group of productive and unproductive surface hop points along torsion angle tau. Hence the tau coordinate is the coordinate determining the reactivity of trajectories in our example system.
 
@@ -15,7 +15,7 @@ _Plot-actual-angle-and-velo.py_ can be used to verify that actual distribution o
 
 The main purpose of the _Cluster-analysis.py_ is elimination of need for manual visualization of hop points along all coordinates that potentially define reactivity of the system. _Cluster-analysis.py_ allows to automatically find most promising coordinates, which can be subsequently visualized with _Plot-actual-angle-and-velo.py_.
 
-**RMSD-Analysis**
+#RMSD-Analysis
 
 _RMSD-Analysis.py_ is the tool that could be used after _Cluster-analysis.py_ identified most promising reaction coordinate (in our example it is tau). _RMSD-Analysis.py_ calculates the RMSD between the average velocity of a selected coordinate and the velocities of all other coordinates provided by user. In addition the _RMSD-Analysis.py_ identifies if inverted velocity of particular coordinate has close correlation with coordinate selected by user (in some instances the associated coordinate might have an opposite phase).
 
